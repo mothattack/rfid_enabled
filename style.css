@@ -23,7 +23,7 @@ body {
 }
 
 .rfid-card {
-    width: 250px;
+    width: 350px;
     height: auto;
     animation: slideInOut 10s infinite;
 }
