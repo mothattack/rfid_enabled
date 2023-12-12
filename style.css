@@ -9,11 +9,15 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 footer {
     margin-top: auto; /* Pushes the footer to the bottom */
-    text-align: center; /* Centers the content */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 footer img {
