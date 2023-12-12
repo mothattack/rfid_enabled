@@ -53,6 +53,7 @@ body {
     width: 70%; /* Could be more or less, depending on screen size */
     text-align: center;
     border: 5px solid black; /* Thick black border */
+    border-radius: 20px;
 }
 
 .modal-content h2 {
@@ -64,8 +65,8 @@ body {
 }
 
 .modal-content button {
-    padding: 40px 80px; /* Increase padding */
-    font-size: 32px; /* Increase font size */
+    padding: 30px 60px; /* Increase padding */
+    font-size: 48px; /* Increase font size */
     color: #fff;
     background-color: #007bff;
     border: none;
@@ -74,6 +75,7 @@ body {
     display: block; /* To make the button a block element */
     margin: 20px auto; /* To center the button in the modal */
     text-align: center; /* To center the text inside the button */
+    margin-top: 50px;
 }
 
 .modal-content button:hover {
