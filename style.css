@@ -11,7 +11,7 @@ body {
 .title {
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 64px; /* Large font size */
+    font-size: 80px; /* Large font size */
     font-weight: bold; /* Bold font */
     color: #000000;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .rfid-card {
-    width: 350px;
+    width: 250px;
     height: auto;
     animation: slideInOut 3s infinite;
 }
@@ -30,4 +30,34 @@ body {
 @keyframes slideInOut {
     0%, 100% { transform: translateX(-100%); }
     50% { transform: translateX(0); }
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+
+.modal-content h2 {
+    font-size: 30px; /* Large font size for the title */
+}
+
+.modal-content p {
+    font-size: 20px; /* Size for the message */
 }
