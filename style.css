@@ -32,7 +32,7 @@ body {
 
 @keyframes slideInReset {
     0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
-    50% { transform: translateX(0); } /* Move in to the visible area */
+    100% { transform: translateX(0); } /* Move in to the visible area */
 }
 
 /* Modal Styles */
