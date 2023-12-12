@@ -15,7 +15,7 @@ body {
     font-size: 80px; /* Large font size */
     font-weight: bold; /* Bold font */
     color: #000000;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
     margin-top: 40px;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 40% auto; /* 40% from the top and centered */
+    margin: 300px auto; /* 40% from the top and centered */
     padding: 20px;
     width: 70%; /* Could be more or less, depending on screen size */
     text-align: center;
