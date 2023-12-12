@@ -63,11 +63,6 @@ footer img {
     margin-bottom: 40px;
 }
 
-/* @keyframes slideInReset {
-    0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
-    100% { transform: translateX(0); } /* Move in to the visible area */
-} */
-
 /* Modal Styles */
 .modal {
     display: none; /* Hidden by default */
