@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.rfid-card {
+    width: 150px;
+    height: auto;
+    animation: slideInOut 3s infinite;
+}
+
+@keyframes slideInOut {
+    0%, 100% { transform: translateX(-100%); }
+    50% { transform: translateX(0); }
+}
