@@ -6,7 +6,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .title {
@@ -50,7 +50,7 @@ body {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 25% auto; /* 15% from the top and centered */
+    margin: 40% auto; /* 40% from the top and centered */
     padding: 20px;
     width: 70%; /* Could be more or less, depending on screen size */
     text-align: center;
@@ -59,25 +59,25 @@ body {
 }
 
 .modal-content h2 {
-    font-size: 50px; /* Large font size for the title */
+    font-size: 64px; /* Large font size for the title */
 }
 
 .modal-content p {
-    font-size: 30px; /* Size for the message */
+    font-size: 50px; /* Size for the message */
 }
 
 .modal-content button {
     padding: 30px 60px; /* Increase padding */
     font-size: 48px; /* Increase font size */
     color: #fff;
-    background-color: #007bff;
+    background-color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: block; /* To make the button a block element */
     margin: 20px auto; /* To center the button in the modal */
     text-align: center; /* To center the text inside the button */
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .modal-content button:hover {
