@@ -8,6 +8,14 @@ body {
     margin: 0 auto;
 }
 
+.title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 64px; /* Large font size */
+    font-weight: bold; /* Bold font */
+    color: #000000;
+}
+
 .logo {
     width: 400px;
     height: auto;
