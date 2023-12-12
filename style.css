@@ -15,7 +15,7 @@ body {
     font-size: 80px; /* Large font size */
     font-weight: bold; /* Bold font */
     color: #000000;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
     margin-top: 40px;
 }
 
@@ -24,10 +24,15 @@ body {
     height: auto;
 }
 
+@keyframes slideInReset {
+    0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
+    50% { transform: translateX(0); } /* Move in to the visible area */
+}
+
 .rfid-card {
     width: 350px;
     height: auto;
-    animation: slideInOut 10s infinite;
+    animation: slideInReset 10s infinite;
 }
 
 @keyframes slideInOut {
