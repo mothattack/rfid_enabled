@@ -24,20 +24,15 @@ body {
     height: auto;
 }
 
-@keyframes slideInReset {
-    0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
-    50% { transform: translateX(0); } /* Move in to the visible area */
-}
-
 .rfid-card {
     width: 350px;
     height: auto;
     animation: slideInReset 10s infinite;
 }
 
-@keyframes slideInOut {
-    0%, 100% { transform: translateX(-100%); }
-    50% { transform: translateX(0); }
+@keyframes slideInReset {
+    0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
+    50% { transform: translateX(0); } /* Move in to the visible area */
 }
 
 /* Modal Styles */
