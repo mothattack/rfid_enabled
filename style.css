@@ -56,9 +56,9 @@ body {
 }
 
 .modal-content h2 {
-    font-size: 30px; /* Large font size for the title */
+    font-size: 50px; /* Large font size for the title */
 }
 
 .modal-content p {
-    font-size: 20px; /* Size for the message */
+    font-size: 30px; /* Size for the message */
 }
