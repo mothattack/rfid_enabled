@@ -6,6 +6,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 .title {
@@ -14,7 +15,8 @@ body {
     font-size: 80px; /* Large font size */
     font-weight: bold; /* Bold font */
     color: #000000;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
+    margin-top: 40px;
 }
 
 .logo {
