@@ -9,12 +9,12 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 400px;
     height: auto;
 }
 
 .rfid-card {
-    width: 150px;
+    width: 350px;
     height: auto;
     animation: slideInOut 3s infinite;
 }
