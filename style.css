@@ -25,7 +25,7 @@ body {
 .rfid-card {
     width: 250px;
     height: auto;
-    animation: slideInOut 3s infinite;
+    animation: slideInOut 10s infinite;
 }
 
 @keyframes slideInOut {
