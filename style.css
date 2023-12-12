@@ -46,15 +46,25 @@ footer img {
 }
 
 .rfid-card {
-    width: 350px;
+    width: 450px;
     height: auto;
-    animation: slideInReset 10s infinite;
+/*     animation: slideInReset 10s infinite; */
 }
 
-@keyframes slideInReset {
+
+.subtext {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px; /* Large font size */
+    font-weight: bold; /* Bold font */
+    color: #000000;
+    margin-top: 40px;
+}
+
+/* @keyframes slideInReset {
     0%, 100% { transform: translateX(-100%); } /* Start and reset position off-screen */
     100% { transform: translateX(0); } /* Move in to the visible area */
-}
+} */
 
 /* Modal Styles */
 .modal {
